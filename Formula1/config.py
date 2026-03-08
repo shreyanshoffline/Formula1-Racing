@@ -1,0 +1,83 @@
+import os
+
+# ====== SCREEN & ASSETS ======
+SCREEN_W, SCREEN_H = 1280, 720
+FPS = 60
+ASSET_DIR = os.path.join(os.path.dirname(__file__), "imgs")
+
+# ====== CAR PHYSICS ======
+MASS = 620.0
+ENGINE_FORCE = 9800.0
+BRAKE_FORCE = 68000.0
+ROLLING_RESIST_COEF = 8.0
+AERO_DRAG_COEF = 6.8
+DOWNFORCE_COEF = 5.4
+TIRE_GRIP_BASE = 16000.0
+LATERAL_DAMP = 9.0
+
+MAX_FORWARD_SPEED = 2300.0
+MAX_REVERSE_SPEED = -260.0
+
+WHEELBASE = 2.9
+MAX_STEER_ANGLE = 18.0
+STEER_SPEED = 13.0
+
+THROTTLE_RAMP = 0.8
+BRAKE_RAMP = 10.0
+
+FORWARD_ACCEL_PX = 440.0
+REVERSE_ACCEL_PX = 150.0
+BRAKE_DECEL_PX = 1400.0
+
+DRAG_FACTOR = 0.986
+TURN_RATE = 130.0
+MIN_TURN_SPEED = 2.0
+
+PIXELS_TO_M = 0.045
+
+# ====== AI / VISUAL ======
+AI_MAX_SPEED = MAX_FORWARD_SPEED
+AI_LOOKAHEAD = 120
+WAYPOINT_RADIUS = 30
+CAR_SCALE = (84, 126)
+
+# ====== ENGINE ======
+
+IDLE_RPM = 1200
+REDLINE_RPM = 12000
+REV_LIMIT = 12200
+
+ENGINE_INERTIA = 0.18   # lower = faster rev changes
+
+UPSHIFT_RPM = 11800
+DOWNSHIFT_RPM = 8500
+
+MAX_GEAR = 8
+# Torque curve (RPM → torque multiplier)
+TORQUE_CURVE = [
+    (1000, 0.45),
+    (3000, 0.65),
+    (6000, 0.85),
+    (9000, 1.00),
+    (11000, 0.92),
+    (12200, 0.70)
+]
+
+
+# ====== TRANSMISSION ======
+
+GEAR_RATIOS = [
+    0.0,    # neutral
+    3.20,
+    2.40,
+    1.90,
+    1.55,
+    1.30,
+    1.10,
+    0.95,
+    0.82
+]
+
+FINAL_DRIVE = 3.40
+
+WHEEL_RADIUS_M = 0.34
