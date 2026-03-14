@@ -159,10 +159,4 @@ See more in next tab
 
 Aspiring aerospace engineer and programmer 🚀
 
----
-
-## Screen Shots and Teasers !
-
-![Formula1 Title Screenshot!](file:///Users/owner/Desktop/Formula1_title.jpeg)
-
-
+#### Thank You !!!
