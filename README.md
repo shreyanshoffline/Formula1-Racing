@@ -7,7 +7,7 @@ The project was created as a learning experience to understand how racing games 
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
 - 🏁 Lap detection system
 - 🏎️ Smooth acceleration and steering physics
@@ -19,27 +19,13 @@ The project was created as a learning experience to understand how racing games 
 
 ---
 
-# 🛠️ Built With
+## 🛠️ Built With
 
 - **Python**
 - **Pygame**
 - **Object Oriented Programming**
 
 ---
-
-# 📂 Project Structure
-Formula1Game/
-│
-├── main.py
-├── car.py
-├── track.py
-├── screens.py
-├── assets/
-│ ├── images/
-│ └── fonts/
-│
-└── README.md
-
 
 ### Main Files
 
@@ -54,7 +40,7 @@ Manages UI screens and game states.
 
 ---
 
-# 🎮 Controls
+## 🎮 Controls
 
 | Key | Action |
 |-----|------|
@@ -66,9 +52,9 @@ Manages UI screens and game states.
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-## For Mac Users:
+### For Mac Users:
 Step 1: git clone: https://github.com/shreyanshoffline/Formula1-Racing
 
 
@@ -87,13 +73,13 @@ and trust me the developer. (Completley your wish to allow or not allow.)
 If you dont allow you the mac will take it to trash and wont allow you to run it
 Enjoy!
 
-## For Windows Users
+### For Windows Users
   Coming soon! - or if you already know how to do it, please go ahead
 
-## For Linux Users
+### For Linux Users
   Coming soon! - or if you already know how to do it, please go ahead
 
-# 🏁 Gameplay
+## 🏁 Gameplay
 
 Players control a Formula-style race car and attempt to complete laps around the circuit.
 
@@ -108,7 +94,7 @@ This helps simulate basic racing rules similar to real motorsport.
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 Planned features include:
 
@@ -123,7 +109,7 @@ Planned features include:
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
@@ -139,14 +125,14 @@ It makes the game more creative and brings you credit
 
 ---
 
-# 📜 License
+## 📜 License
 
 This project is licensed under the **MIT License**.
 See more in next tab
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Shreyansh**
 
